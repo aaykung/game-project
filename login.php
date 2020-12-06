@@ -1,4 +1,4 @@
-<?php include('sever.php'); ?>
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +13,7 @@
         <h2>Login</h2>
     </div>
 
-<form action="register_db.php">
+<form action="userAPI.php">
     <div class="input-group">
         <label for="username">Username</label>
         <input type="text" name="username">
@@ -21,6 +21,7 @@
     <div class="input-group">
         <label for="password">Password</label>
         <input type="password" name="password">
+        <input type="hidden" name="txtAction" value="login">
     </div>
     <div class="input-group">
         <button type="submit" name="login_user" class="btn">Login</button>

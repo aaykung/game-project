@@ -1,4 +1,4 @@
-<?php include('sever.php'); ?>
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +13,7 @@
         <h2>Register</h2>
     </div>
 
-<form action="register_db.php">
+<form action="userAPI.php">
     <div class="input-group">
         <label for="username">Username</label>
         <input type="text" name="username">
